@@ -10,10 +10,9 @@ RUN cd /opt; \
 ADD kairosdb.properties /opt/kairosdb/conf/kairosdb.properties
 
 # Kairos API telnet and jetty ports
-EXPOSE 4242 8083
+EXPOSE 4242 8080
 
 # Set Kairos config vars
-#ENV KAIROS_JETTY_PORT 8083
 ENV CASSANDRA_HOST_LIST 10.1.2.3:9160
 
 # Copy scripts into container to set kairos config params
