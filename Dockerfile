@@ -21,6 +21,3 @@ ADD config-kairos.sh /usr/bin/config-kairos.sh
 
 # Run kairosdb in foreground on boot
 CMD ["/usr/bin/config-kairos.sh"]
-
-
-https://github.com/kairosdb/kairosdb/releases/download/v1.1.2/kairosdb-1.1.2-1.tar.gz
